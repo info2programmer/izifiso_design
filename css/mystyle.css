@@ -1,0 +1,9 @@
+.movie--test {
+    width: 33.33%;
+    float: left;
+    margin-bottom: 8px;
+}
+
+.category--popular:before {
+    background-image: none;
+  }
