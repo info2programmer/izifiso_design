@@ -27,7 +27,7 @@
                         </div>
 
                         <div class="clearfix"></div>
-                        <p class="copy">&copy; Izifiso, <?php echo date('Y') ?>. All rights reserved. Done by Izifiso Privet Limited</p>
+                        <p class="copy">&copy; Izifiso, <?php echo date('Y') ?>. All rights reserved. Done by Izifiso Private Limited</p>
                     </div>
                 </div>
             </section>
@@ -108,9 +108,11 @@
             $(document).ready(function() {
                 init_Gallery();
                 init_Home();
-                init_SinglePage();
+                // init_SinglePage();
+                init_MovieList();
             });
-		</script>
+        </script>
+        <!-- <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div> -->
 
 </body>
 

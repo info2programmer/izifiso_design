@@ -8272,7 +8272,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   padding-bottom: 20px;
 }
 .movie--preview .movie__feature .movie__feature--comment:before {
-  content: "\f075";
+  content: "\f0ac";
   font: 14px "FontAwesome";
   color: #7c7578;
   position: absolute;
@@ -8362,7 +8362,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 .movie--full .movie__feature .movie__feature-item {
   padding-right: 22px;
   padding-top: 21px;
-  width: 32%;
+  width: 100%;
 }
 .movie--time {
   overflow: hidden;

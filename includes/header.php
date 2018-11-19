@@ -43,7 +43,7 @@
                             <a href="page-elements.html">Blog</a>
                         </li> -->
                         <li>
-                            <a href="page-elements.html">Camp</a>
+                            <a href="camp.php">Camp</a>
                         </li>
                         <li>
                             <a href="page-elements.html">Villa</a>

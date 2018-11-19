@@ -4,10 +4,9 @@
 <head>
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
-    <title>Izifiso - Where desire get wings</title>
-    <meta name="description" content="Izifiso - Where desire get wings">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="izifiso.com">
+    <title>Izifiso - Where desires get wings</title>
+    <meta name="description" content="Come with Izifiso, travel away from home, feel the goose bumps break into the skin in the eerie night, sweat under the scorching sun on an uphill trek, dance in the twilight sands to the waves that crash on the shore, whisper to the mangroves, gape at the constellations and let the mountain winds lull you to sleep. Let all these be a part of your story and your life and let them turn you into a story teller.">
+    <meta name="author" content="https://izifiso.com">
 
     <!-- Mobile Specific Metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

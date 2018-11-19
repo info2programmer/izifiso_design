@@ -3,9 +3,8 @@
 <head>
 	<!-- Basic Page Needs -->
         <meta charset="utf-8">
-        <title>Izifiso Blog</title>
-        <meta name="description" content="A Template by Gozha.net">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <title>Travel Stories</title>
+        <meta name="description" content="Izifiso always aims on letting people learn something through travel. Our blog is exclusively designed to give space to beautiful travelogues.">
         <meta name="author" content="https://izifiso.com">
     
     <!-- Mobile Specific Metas-->
