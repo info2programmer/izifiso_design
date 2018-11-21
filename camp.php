@@ -70,7 +70,7 @@
                     </div>
 
                     <div class="col-sm-9 col-md-10 col-lg-10 movie__about">
-                            <a href='movie-page-full.html' class="movie__title link--huge">Mousuni Island</a>
+                            <a href='movie-page-full.php' class="movie__title link--huge">Mousuni Island</a>
 
                             <p class="movie__time">Beach Camp</p>
 
@@ -100,7 +100,7 @@
                     </div>
 
                     <div class="col-sm-9 col-md-10 col-lg-10 movie__about">
-                            <a href='movie-page-full.html' class="movie__title link--huge">Doladanga</a>
+                            <a href='movie-page-full.php' class="movie__title link--huge">Doladanga</a>
                             <p class="movie__time">Lake Camp</p>
                             <p class="movie__option" align="justify"><strong>Mousuni is a small island of the Sunderban Delta. It's beauty lies in the confluence of the sea with the river. Made by the British for transportation of salt and dry fish, mousuni got it's name from the Bengali words, "mosh ani" means  "bringing buffalo". When British people come to inspect the place they find out nobody lives in these islands but lots of people come here everyday. When asked why they come here the locals responded, "mosh ani" i.e they bring their buffaloes here to feed and so goes the name Mousuni.
                             The mainstay economy of the people here is agriculture and fishing. However the severe impacts of climate change has its toll on the lives of people here who were already having a precarious existence.

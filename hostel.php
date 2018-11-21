@@ -66,7 +66,7 @@
                     </div>
 
                     <div class="col-sm-9 col-md-10 col-lg-10 movie__about">
-                            <a href='movie-page-full.html' class="movie__title link--huge">Mathaburu</a>
+                            <a href='movie-page-full.php' class="movie__title link--huge">Mathaburu</a>
 
                             <p class="movie__time">Night Camp</p>
 

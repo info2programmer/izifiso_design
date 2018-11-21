@@ -70,7 +70,7 @@
                     </div>
 
                     <div class="col-sm-9 col-md-10 col-lg-10 movie__about">
-                            <a href='movie-page-full.html' class="movie__title link--huge">Mousuni Island</a>
+                            <a href='movie-page-full.php' class="movie__title link--huge">Mousuni Island</a>
 
                             <p class="movie__time">Beach Villa</p>
 
