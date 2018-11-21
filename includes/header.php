@@ -46,14 +46,14 @@
                             <a href="camp.php">Camp</a>
                         </li>
                         <li>
-                            <a href="page-elements.html">Villa</a>
+                            <a href="villa.php">Villa</a>
                         </li>
                         <li>
-                            <a href="page-elements.html">Hostel</a>
+                            <a href="hostel.php">Hostel</a>
                         </li>
 
                         <li>
-                            <a href="page-elements.html">Contact Us</a>
+                            <a href="contact.php">Contact Us</a>
                         </li>
                         <!-- <li>
                             <span class="sub-nav-toggle plus"></span>

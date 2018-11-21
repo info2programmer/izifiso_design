@@ -14,7 +14,37 @@
 
     <!-- Fonts -->
     <!-- Font awesome - icon font -->
-   <?php include_once('includes/head.php') ?>
+   <!-- Fonts -->
+        <!-- Font awesome - icon font -->
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <!-- Roboto -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'>
+        <!-- Open Sans -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
+    
+    <!-- Stylesheets -->
+
+        <!-- Mobile menu -->
+        <link href="css/gozha-nav.css" rel="stylesheet" />
+        <!-- Select -->
+        <link href="css/external/jquery.selectbox.css" rel="stylesheet" />
+
+        <!-- REVOLUTION BANNER CSS SETTINGS -->
+        <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+    
+        <!-- Custom -->
+        <link href="css/style.css?v=1" rel="stylesheet" />
+        <link href="css/mystyle.css" rel="stylesheet" />
+
+
+        <!-- Modernizr --> 
+        <script src="js/external/modernizr.custom.js"></script>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --> 
+    <!--[if lt IE 9]> 
+    	<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script> 
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>		
+    <![endif]-->
 </head>
 
 <body>
@@ -189,7 +219,7 @@ Start doing.'>
                 <div class="col-sm-12 change--col">
                     <div class="movie-beta__item ">
                         <img alt='' src="images/movie/movie-sample1.png">
-                        <span class="best-rate">5.0</span>
+                        
 
                         <ul class="movie-beta__info">
                             <li><span class="best-voted">71 people voted today</span></li>
@@ -205,7 +235,7 @@ Start doing.'>
                     </div>
                     <div class="movie-beta__item second--item">
                         <img alt='' src="images/movie/movie-sample2.png">
-                        <span class="best-rate">5.0</span>
+                        
 
                         <ul class="movie-beta__info">
                             <li><span class="best-voted">71 people voted today</span></li>
@@ -221,7 +251,7 @@ Start doing.'>
                     </div>
                     <div class="movie-beta__item third--item">
                         <img alt='' src="images/movie/movie-sample3.png">
-                        <span class="best-rate">5.0</span>
+                        
 
                         <ul class="movie-beta__info">
                             <li><span class="best-voted">71 people voted today</span></li>
@@ -237,7 +267,7 @@ Start doing.'>
                     </div>
                     <div class="movie-beta__item hidden-xs">
                         <img alt='' src="images/movie/movie-sample4.png">
-                        <span class="best-rate">5.0</span>
+                        
 
                         <ul class="movie-beta__info">
                             <li><span class="best-voted">71 people voted today</span></li>
@@ -253,7 +283,7 @@ Start doing.'>
                     </div>
                     <div class="movie-beta__item hidden-xs hidden-sm">
                         <img alt='' src="images/movie/movie-sample5.png">
-                        <span class="best-rate">5.0</span>
+                        
 
                         <ul class="movie-beta__info">
                             <li><span class="best-voted">71 people voted today</span></li>
@@ -269,7 +299,7 @@ Start doing.'>
                     </div>
                     <div class="movie-beta__item hidden-xs hidden-sm">
                         <img alt='' src="images/movie/movie-sample6.png">
-                        <span class="best-rate">5.0</span>
+                        
 
                         <ul class="movie-beta__info">
                             <li><span class="best-voted">71 people voted today</span></li>
@@ -421,10 +451,7 @@ Start doing.'>
 
                                 <p class="movie__option"><a href="#">Luxury Camping</a> | <a href="#">Virgin Island</a></p>
 
-                                <div class="movie__rate">
-                                    <div class="score"></div>
-                                    <span class="movie__rating">4.1</span>
-                                </div>
+                                
                             </div>
                         </div>
                         <!-- Movie variant with time -->
@@ -445,10 +472,7 @@ Start doing.'>
 
                                 <p class="movie__option"><a href="#">Hill Camping</a> | <a href="#">Night Walk</a> </p>
 
-                                <div class="movie__rate">
-                                    <div class="score"></div>
-                                    <span class="movie__rating">5.0</span>
-                                </div>
+                                
                             </div>
                         </div>
                         <!-- Movie variant with time -->
@@ -469,10 +493,7 @@ Start doing.'>
 
                                 <p class="movie__option"><a href="#">Hill Camping</a> | <a href="#">Night Walk</a> </p>
 
-                                <div class="movie__rate">
-                                    <div class="score"></div>
-                                    <span class="movie__rating">5.0</span>
-                                </div>
+                               
                             </div>
                         </div>
                         <!-- Movie variant with time -->
@@ -614,3 +635,47 @@ Start doing.'>
         <div class="clearfix"></div>
 
         <?php include_once('includes/footer.php') ?>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/external/jquery-1.10.1.min.js"><\/script>')</script>
+        <!-- Migrate --> 
+        <script src="js/external/jquery-migrate-1.2.1.min.js"></script>
+        <!-- Bootstrap 3--> 
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+
+        <!-- Magnific-popup -->
+        <script src="js/external/jquery.magnific-popup.min.js"></script>
+        
+         <!-- jQuery REVOLUTION Slider -->
+         <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+        <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+        <!-- Mobile menu -->
+        <script src="js/jquery.mobile.menu.js"></script>
+         <!-- Select -->
+        <script src="js/external/jquery.selectbox-0.2.min.js"></script>
+        <!-- Stars rate -->
+        <script src="js/external/jquery.raty.js"></script>
+
+        <!-- Form element -->
+        <script src="js/external/form-element.js"></script>
+        <!-- Form validation -->
+        <script src="js/form.js"></script>
+         <!-- Swiper slider -->
+         <script src="js/external/idangerous.swiper.min.js"></script>
+
+        <!-- Custom -->
+        <script src="js/custom.js"></script>
+
+        
+
+		
+		<script type="text/javascript">
+            $(document).ready(function() {
+               init_Home();
+            });
+        </script>
+        <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
+
+</body>
+
+</html>
