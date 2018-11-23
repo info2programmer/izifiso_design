@@ -366,8 +366,7 @@ function init_Home() {
     //5. Scroll down navigation function
     //scroll down
     $('.movie-best__check').click(function (ev) {
-        ev.preventDefault();
-        $('html, body').stop().animate({'scrollTop': $('#target').offset().top-30}, 900, 'swing');
+        window.location.href="camp.php"
     });
 }
 

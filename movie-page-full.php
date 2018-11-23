@@ -3,10 +3,9 @@
 <head>
 	<!-- Basic Page Needs -->
         <meta charset="utf-8">
-        <title>AMovie - Movie page</title>
+        <title>Izifiso</title>
         <meta name="description" content="A Template by Gozha.net">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <meta name="author" content="Gozha.net">
+        <meta name="author" content="https://izifiso.com">
     
     <!-- Mobile Specific Metas-->
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,19 +50,7 @@
     <?php include_once('includes/header.php'); ?>  
         <!-- Search bar -->
         <div class="search-wrapper">
-            <!-- <div class="container container--add">
-                <form id='search-form' method='get' class="search">
-                    <input type="text" class="search__field" placeholder="Search">
-                    <select name="sorting_item" id="search-sort" class="search__sort" tabindex="0">
-                        <option value="1" selected='selected'>By title</option>
-                        <option value="2">By year</option>
-                        <option value="3">By producer</option>
-                        <option value="4">By title</option>
-                        <option value="5">By year</option>
-                    </select>
-                    <button type='submit' class="btn btn-md btn--danger search__button">search a movie</button>
-                </form>
-            </div> -->
+            
         </div>
         
         <!-- Main content -->
@@ -75,47 +62,69 @@
                     <div class="movie__info">
                         <div class="col-sm-4 col-md-3 movie-mobile">
                             <div class="movie__images">
-                                <span class="movie__rating">5.0</span>
-                                <img alt='' src="images/movie/single-movie.jpg">
+                                <img alt='' src="images/movie/1.png">
                             </div>
-                            <div class="movie__rate">Your vote: <div id='score' class="score"></div></div>
                         </div>
 
                         <div class="col-sm-8 col-md-9">
-                            <p class="movie__time">169 min</p>
-
-                            <p class="movie__option"><strong>Country: </strong><a href="#">New Zeland</a>, <a href="#">USA</a></p>
-                            <p class="movie__option"><strong>Year: </strong><a href="#">2012</a></p>
-                            <p class="movie__option"><strong>Category: </strong><a href="#">Adventure</a>, <a href="#">Fantazy</a></p>
-                            <p class="movie__option"><strong>Release date: </strong>December 12, 2012</p>
-                            <p class="movie__option"><strong>Director: </strong><a href="#">Peter Jackson</a></p>
-                            <p class="movie__option"><strong>Actors: </strong><a href="#">Martin Freeman</a>, <a href="#">Ian McKellen</a>, <a href="#">Richard Armitage</a>, <a href="#">Ken Stott</a>, <a href="#">Graham McTavish</a>, <a href="#">Cate Blanchett</a>, <a href="#">Hugo Weaving</a>, <a href="#">Ian Holm</a>, <a href="#">Elijah Wood</a> <a href="#">...</a></p>
-                            <p class="movie__option"><strong>Age restriction: </strong><a href="#">13</a></p>
-                            <p class="movie__option"><strong>Box office: </strong><a href="#">$1 017 003 568</a></p>
-
-                            <a href="#" class="comment-link">Comments:  15</a>
+                            
+                           <p style="padding-top: 6%;line-height: 20px; text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam!
+                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam!
+                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam!
+                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam!
+                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam!
+                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam!
+                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam! 
+                           Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam!
+                           </p>
 
                             <div class="movie__btns movie__btns--full">
-                                <a href="#" class="btn btn-md btn--warning">book a ticket for this movie</a>
-                                <a href="#" class="watchlist">Add to watchlist</a>
-                            </div>
-
-                            <div class="share">
-                                <span class="share__marker">Share: </span>
-                                <div class="addthis_toolbox addthis_default_style ">
-                                    <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-                                    <a class="addthis_button_tweet"></a>
-                                    <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-                                </div>
+                                <a href="#" class="btn btn-md btn--warning">book your ticket for this </a>
                             </div>
                         </div>
                     </div>
                     
                     <div class="clearfix"></div>
                     
-                    <h2 class="page-heading">The plot</h2>
+                    <h2 class="page-heading">Our Plot</h2>
 
-                    <p class="movie__describe">Bilbo Baggins is swept into a quest to reclaim the lost Dwarf Kingdom of Erebor from the fearsome dragon Smaug. Approached out of the blue by the wizard Gandalf the Grey, Bilbo finds himself joining a company of thirteen dwarves led by the legendary warrior, Thorin Oakenshield. Their journey will take them into the Wild; through treacherous lands swarming with Goblins and Orcs, deadly Wargs and Giant Spiders, Shapeshifters and Sorcerers. Although their goal lies to the East and the wastelands of the Lonely Mountain first they must escape the goblin tunnels, where Bilbo meets the creature that will change his life forever ... Gollum. Here, alone with Gollum, on the shores of an underground lake, the unassuming Bilbo Baggins not only discovers depths of guile and courage that surprise even him, he also gains possession of Gollum's "precious" ring that holds unexpected and useful qualities ... A simple, gold ring that is tied to the fate of all Middle-earth in ways Bilbo cannot begin to ... </p>
+                    <p class="movie__describe">
+                    <div class="tabs tabs--vertical">
+                      <!-- Nav tabs -->
+                      <ul class="nav nav-tabs" id="vTab">
+                        <li class="active
+                        "><a href="#movie2" data-toggle="tab">Overview</a></li>
+                        <li class=""><a href="#Stay" data-toggle="tab">Stay&Food</a></li>
+                        <li class=""><a href="#Route" data-toggle="tab">Route</a></li>
+                        <li class=""><a href="#Experience" data-toggle="tab">Experience</a></li>
+                        <li class=""><a href="#Community" data-toggle="tab">Community</a></li>
+                        <li class=""><a href="#Gallery" data-toggle="tab">Gallery</a></li>
+                        <li class=""><a href="#Reviews" data-toggle="tab">Reviews</a></li>
+                      </ul>
+
+                      <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div class="tab-pane active" id="Stay"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque libero a ante viverra vel scelerisque orci tristique. Nullam nisl massa, ullamcorper id condimentum porta, cursus a lorem. </p>
+
+                        <p>Sed ultrices vitae libero et sollicitudin. Etiam hendrerit sem ut ipsum malesuada, sit amet viverra quam lacinia. Nunc ut malesuada elit, et faucibus massa.</p></div>
+                        <div class="tab-pane" id="Route"><p>Sed ultrices vitae libero et sollicitudin. Etiam hendrerit sem ut ipsum malesuada, sit amet viverra quam lacinia. Nunc ut malesuada elit, et faucibus massa.</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque libero a ante viverra vel scelerisque orci tristique. Nullam nisl massa, ullamcorper id condimentum porta, cursus a lorem. </p>
+                        </div>
+
+                        <div class="tab-pane" id="Community"><p>adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+
+                        <div class="tab-pane" id="Gallery"><p>Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+
+
+                        <div class="tab-pane" id="Reviews"><p>Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis eos voluptatibus voluptate quisquam fugiat quod corporis consequuntur perferendis iure similique. Fugiat eligendi velit cum odio mollitia soluta blanditiis dolorum numquam!</p>
+                        </div>
+
+                      </div>
+                      </div>
+                    </p>
 
                     <h2 class="page-heading">photos &amp; videos</h2>
                     
@@ -208,75 +217,30 @@
 
                     
 
-                    <a href="#" id="map-switch" class="watchlist watchlist--map watchlist--map-full"><span class="show-map">Show cinemas on map</span><span  class="show-time">Show cinema time table</span></a>
+                    <a href="#" id="map-switch" class="watchlist watchlist--map watchlist--map-full"><span class="show-map">Show camp on map</span><span  class="show-time">Show camp accommodation</span></a>
                     
                     <div class="clearfix"></div>
 
                     <div class="time-select">
                         <div class="time-select__group group--first">
                             <div class="col-sm-4">
-                                <p class="time-select__place">Cineworld</p>
+                                <p class="time-select__place">Tent</p>
                             </div>
                             <ul class="col-sm-8 items-wrap">
-                                <li class="time-select__item" data-time='09:40'>09:40</li>
-                                <li class="time-select__item" data-time='13:45'>13:45</li>
-                                <li class="time-select__item active" data-time='15:45'>15:45</li>
-                                <li class="time-select__item" data-time='19:50'>19:50</li>
-                                <li class="time-select__item" data-time='21:50'>21:50</li>
+                                <li class="time-select__item" data-stay='3'>Family</li>
+                                <li class="time-select__item" data-stay='2'>Adventure</li>
                             </ul>
                         </div>
 
                         <div class="time-select__group">
                             <div class="col-sm-4">
-                                <p class="time-select__place">Empire</p>
+                                <p class="time-select__place">Mud House</p>
                             </div>
                             <ul class="col-sm-8 items-wrap">
-                                <li class="time-select__item" data-time='10:45'>10:45</li>
-                                <li class="time-select__item" data-time='16:00'>16:00</li>
-                                <li class="time-select__item" data-time='19:00'>19:00</li>
-                                <li class="time-select__item" data-time='21:15'>21:15</li>
-                                <li class="time-select__item" data-time='23:00'>23:00</li>
-                            </ul>
-                        </div>
-
-                        <div class="time-select__group">
-                            <div class="col-sm-4">
-                                <p class="time-select__place">Curzon</p>
-                            </div>
-                            <ul class="col-sm-8 items-wrap">
-                                <li class="time-select__item" data-time='09:00'>09:00</li>
-                                <li class="time-select__item" data-time='11:00'>11:00</li>
-                                <li class="time-select__item" data-time='13:00'>13:00</li>
-                                <li class="time-select__item" data-time='15:00'>15:00</li>
-                                <li class="time-select__item" data-time='17:00'>17:00</li>
-                                <li class="time-select__item" data-time='19:0'>19:00</li>
-                                <li class="time-select__item" data-time='21:0'>21:00</li>
-                                <li class="time-select__item" data-time='23:0'>23:00</li>
-                                <li class="time-select__item" data-time='01:0'>01:00</li>
-                            </ul>
-                        </div>
-
-                        <div class="time-select__group">
-                            <div class="col-sm-4">
-                                <p class="time-select__place">Odeon</p>
-                            </div>
-                            <ul class="col-sm-8 items-wrap">
-                                <li class="time-select__item" data-time='10:45'>10:45</li>
-                                <li class="time-select__item" data-time='16:00'>16:00</li>
-                                <li class="time-select__item" data-time='19:00'>19:00</li>
-                                <li class="time-select__item" data-time='21:15'>21:15</li>
-                                <li class="time-select__item" data-time='23:00'>23:00</li>
-                            </ul>
-                        </div>
-
-                        <div class="time-select__group group--last">
-                            <div class="col-sm-4">
-                                <p class="time-select__place">Picturehouse</p>
-                            </div>
-                            <ul class="col-sm-8 items-wrap">
-                                <li class="time-select__item" data-time='17:45'>17:45</li>
-                                <li class="time-select__item" data-time='21:30'>21:30</li>
-                                <li class="time-select__item" data-time='02:20'>02:20</li>
+                                <li class="time-select__item" data-time='16:00'>C1 &nbsp;</li>
+                                <li class="time-select__item" data-time='19:00'>C2 &nbsp;</li>
+                                <li class="time-select__item" data-time='21:15'>C3 &nbsp;</li>
+                                <li class="time-select__item" data-time='23:00'>C4 &nbsp;</li>
                             </ul>
                         </div>
                     </div>
@@ -286,90 +250,15 @@
                         <div id='cimenas-map'></div> 
                     </div>
 
-                    <h2 class="page-heading">comments (15)</h2>
-
-                    <div class="comment-wrapper">
-                        <form id="comment-form" class="comment-form" method='post'>
-                            <textarea class="comment-form__text" placeholder='Add you comment here'></textarea>
-                            <label class="comment-form__info">250 characters left</label>
-                            <button type='submit' class="btn btn-md btn--danger comment-form__btn">add comment</button>
-                        </form>
-
-                        <div class="comment-sets">
-
-                        <div class="comment">
-                            <div class="comment__images">
-                                <img alt='' src="images/comment/avatar.jpg">
-                            </div>
-
-                            <a href='#' class="comment__author"><span class="social-used fa fa-facebook"></span>Roberta Inetti</a>
-                            <p class="comment__date">today | 03:04</p>
-                            <p class="comment__message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae enim sollicitudin, euismod erat id, fringilla lacus. Cras ut rutrum lectus. Etiam ante justo, volutpat at viverra a, mattis in velit. Morbi molestie rhoncus enim, vitae sagittis dolor tristique et.</p>
-                            <a href='#' class="comment__reply">Reply</a>
-                        </div>
-
-                        <div class="comment">
-                            <div class="comment__images">
-                                <img alt='' src="images/comment/avatar-olia.jpg">
-                            </div>
-
-                            <a href='#' class="comment__author"><span class="social-used fa fa-vk"></span>Olia Gozha</a>
-                            <p class="comment__date">22.10.2013 | 14:40</p>
-                            <p class="comment__message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae enim sollicitudin, euismod erat id, fringilla lacus. Cras ut rutrum lectus. Etiam ante justo, volutpat at viverra a, mattis in velit. Morbi molestie rhoncus enim, vitae sagittis dolor tristique et.</p>
-                            <a href='#' class="comment__reply">Reply</a>
-                        </div>
-
-                        <div class="comment comment--answer">
-                            <div class="comment__images">
-                                <img alt='' src="images/comment/avatar-dmitriy.jpg">
-                            </div>
-
-                            <a href='#' class="comment__author"><span class="social-used fa fa-vk"></span>Dmitriy Pustovalov</a>
-                            <p class="comment__date">today | 10:19</p>
-                            <p class="comment__message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae enim sollicitudin, euismod erat id, fringilla lacus. Cras ut rutrum lectus. Etiam ante justo, volutpat at viverra a, mattis in velit. Morbi molestie rhoncus enim, vitae sagittis dolor tristique et.</p>
-                            <a href='#' class="comment__reply">Reply</a>
-                        </div>
-
-                        <div class="comment comment--last">
-                            <div class="comment__images">
-                                <img alt='' src="images/comment/avatar-sia.jpg">
-                            </div>
-
-                            <a href='#' class="comment__author"><span class="social-used fa fa-facebook"></span>Sia Andrews</a>
-                            <p class="comment__date"> 22.10.2013 | 12:31 </p>
-                            <p class="comment__message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae enim sollicitudin, euismod erat id, fringilla lacus. Cras ut rutrum lectus. Etiam ante justo, volutpat at viverra a, mattis in velit. Morbi molestie rhoncus enim, vitae sagittis dolor tristique et.</p>
-                            <a href='#' class="comment__reply">Reply</a>
-                        </div>
-
-                        <div id='hide-comments' class="hide-comments">
-                            <div class="comment">
-                                <div class="comment__images">
-                                    <img alt='' src="images/comment/avatar.jpg">
-                                </div>
-
-                                <a href='#' class="comment__author"><span class="social-used fa fa-facebook"></span>Roberta Inetti</a>
-                                <p class="comment__date">today | 03:04</p>
-                                <p class="comment__message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae enim sollicitudin, euismod erat id, fringilla lacus. Cras ut rutrum lectus. Etiam ante justo, volutpat at viverra a, mattis in velit. Morbi molestie rhoncus enim, vitae sagittis dolor tristique et.</p>
-                                <a href='#' class="comment__reply">Reply</a>
-                            </div>
-
-                            <div class="comment">
-                                <div class="comment__images">
-                                    <img alt='' src="images/comment/avatar-olia.jpg">
-                                </div>
-
-                                <a href='#' class="comment__author"><span class="social-used fa fa-vk"></span>Olia Gozha</a>
-                                <p class="comment__date">22.10.2013 | 14:40</p>
-                                <p class="comment__message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae enim sollicitudin, euismod erat id, fringilla lacus. Cras ut rutrum lectus. Etiam ante justo, volutpat at viverra a, mattis in velit. Morbi molestie rhoncus enim, vitae sagittis dolor tristique et.</p>
-                                <a href='#' class="comment__reply">Reply</a>
-                            </div>
-                        </div>
-
-                        <div class="comment-more">
-                            <a href="#" class="watchlist">Show more comments</a>
-                        </div>
-
-                    </div>
+                    <div class="booking-pagination">
+                    <a href="#" class="booking-pagination__prev hide--arrow">
+                        <span class="arrow__text arrow--prev"></span>
+                        <span class="arrow__info"></span>
+                    </a>
+                    <a href="book2.php" class="booking-pagination__next">
+                        <span class="arrow__text arrow--next">next step</span>
+                        <span class="arrow__info">choose a sit</span>
+                    </a>
                     </div>
                 </div>
             </div>

@@ -3530,9 +3530,9 @@ ul#navigation a:hover {
 .tabs--vertical .tab-content {
   margin-left: 115px;
   clear: none;
-  background-color: #fe505a;
+  background-color: #a57b0b9e;
   padding: 28px 40px 23px;
-  min-height: 258px;
+  min-height: 332px;
 }
 .tabs--vertical .tab-content * {
   color: #ffffff;
@@ -5301,6 +5301,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   height: 162px;
   background-image: url(../images/components/bg-movie.png);
   background-repeat: repeat-x;
+  margin-bottom: 1%;
 }
 .movie .movie__media .swiper-container {
   max-height: 120px;
@@ -5395,7 +5396,7 @@ ul#navigation li.mega-menu__nav-item:hover:before {
 }
 .time-select .time-select__item:before {
   content: '';
-  width: 54px;
+  width: 100px;
   height: 28px;
   border: 1px solid #ffffff;
   position: absolute;
